@@ -10,6 +10,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 #creating a list of months
 MONTH_DATA = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
 
+#creating a list of days
 DAY_DATA = ['sunday','monday', 'tuesday', 'wednesday', 'friday', 'saturday', 'all']
 
 
@@ -227,7 +228,7 @@ def display_data(df):
     #a particular point is displayed
     counter = 0
     while rdata not in BIN_RESPONSE_LIST:
-        print("\nDo you wish to view the raw data?")
+        print("\nDo you want to view the raw data?")
         print("\nAccepted responses: yes or no")
         rdata = input().lower()
         #the raw data from the df is displayed if user opts for it
