@@ -228,7 +228,7 @@ def display_data(df):
     #a particular point is displayed
     counter = 0
     while rdata not in BIN_RESPONSE_LIST:
-        print("\nDo you wish to view the raw data?")
+        print("\nDo you want to view the raw data?")
         print("\nAccepted responses: yes or no")
         rdata = input().lower()
         #the raw data from the df is displayed if user opts for it
