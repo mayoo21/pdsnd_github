@@ -7,6 +7,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+#creating a list of months
 MONTH_DATA = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
 
 DAY_DATA = ['sunday','monday', 'tuesday', 'wednesday', 'friday', 'saturday', 'all']
